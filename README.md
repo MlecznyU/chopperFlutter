@@ -2,15 +2,10 @@
 
 Example project with chopper package in Flutter
 
-## Getting Started
+chopper package: https://pub.dev/packages/chopper
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter command for generating code
+single build:
+flutter packages pub run build_runner build
+watch rebuild every time chopper based file are updated:
+flutter packages pub run build_runner watch
